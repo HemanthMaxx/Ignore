@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     srand(static_cast<unsigned int>(time(nullptr)));  
 
-    int secretNumber = rand() % 100 + 1;  // No need for std::
+    int secretNumber = rand() % 100 + 1;
 
     int guess;
     int attempts = 0;
